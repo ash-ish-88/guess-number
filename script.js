@@ -58,6 +58,7 @@ function validateGuess(guess)
   if(guess === randomNumber)
   {
     displayMessage('You guessed it right')
+    endGame();
   }
   else if(guess < randomNumber)
   {
